@@ -1,8 +1,12 @@
 cff-version: 1.2.0
-title: bitchain
-version: 0.0.0
-date-released: 2022-11-01
+title: "Bitchain: A Simple Blockchain Emulator in Python"
+abstract: "This is a simple, yet powerful blockchain emulator written in Python for educational purposes."
+version: 0.0.1
+date-released: 2023-08-02
 url: "https://github.com/block-foundation/bitchain"
+repository-code: "https://github.com/block-foundation/bitchain"
+repository-artifact: "https://github.com/block-foundation/bitchain/releases"
+license: "Apache-2.0"
 message: >-
   If you use bitchain, please cite it using
   the metadata from this file.
@@ -12,4 +16,9 @@ authors:
     family-names: van Vianen
     email: lars@blockfoundation.io
     affiliation: Block Foundation
-    orcid: 'https://orcid.org/0000-0002-8790-8630'
+    orcid: "https://orcid.org/0000-0002-8790-8630"
+keywords: 
+  - Python
+  - Blockchain
+  - Emulator
+  - Education
