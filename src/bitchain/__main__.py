@@ -1,10 +1,18 @@
 #!/usr/bin/env python
 
 
+# =============================================================================
+# Docstring
+# =============================================================================
+
 """
-Provides a bitchain entry point.
+Provides a Bitchain entry point.
 """
 
+
+# =============================================================================
+# Import
+# =============================================================================
 
 # Import | Futures
 from __future__ import print_function
@@ -22,8 +30,14 @@ import bitchain
 # Import | Local Modules
 
 
-if __name__ == "__main__":
+# =============================================================================
+# Main
+# =============================================================================
 
+def main() -> None:
+    """
+    Main function to.
+    """
     print()
     print("bitchain is set!")
     print()
@@ -38,7 +52,13 @@ if __name__ == "__main__":
         packages = set(
             [p.project_name for p in working_set]) - set(["bitchain"]
         )
-        bitchain_pkgs = [p for p in packages if p.lower().startswith("bitchain")]
+        bitchain_pkgs = [
+            p for p in packages if p.lower().startswith("bitchain")
+        ]
 
         if bitchain_pkgs:
             print("Extensions: {}".format([p for p in bitchain_pkgs]))
+
+
+if __name__ == "__main__":
+    main()
