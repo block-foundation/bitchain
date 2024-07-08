@@ -1,20 +1,26 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 
+# =============================================================================
+# Docstring
+# =============================================================================
+
 """
-Provides Bearing package information.
+Provides Bitchain package information.
 """
 
 
-__author__ =        "Lars van Vianen and Sander Boer"
-__copyright__ =     "Copyright 2022, Starling Associates"
+# =============================================================================
+# Metadata
+# =============================================================================
+
+__author__ =        "Lars van Vianen"
+__copyright__ =     "Copyright 2024, Block Foundation"
 __credits__ =       [
                         "Lars van Vianen",
-                        "Sander Boer"
                     ]
 __license__ =       "MIT License"
-__version__ =       "0.0.0"
-__maintainer__ =    "Starling Associates"
-__email__ =         "info@starling.cloud"
+__version__ =       "0.0.1"
+__maintainer__ =    "Block Foundation"
+__email__ =         "info@blockfoundation.io"
 __status__ =        "Alpha"
